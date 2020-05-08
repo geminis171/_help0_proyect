@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Login Registration</string>
+
+    <string name="IMAGENBOTON">INFORMACION</string>
+
+    <string name="bottonShell">Sintaxis Shell</string>
+    <string name="act1">Primer Activity</string>
+    <string name="bottonAtras">Boton ATRAS</string>
+    <string name="act2">Sintaxis Bash</string>
+
+    <string name="bottonPhp">Sintaxis Php</string>
+    <string name="act3">Sintaxis Php</string>
+
+    <string name="bottonJava">Sintaxis Java</string>
+    <string name="act4">Sintaxis Java</string>
+
+    <string name="bottonMysql">Sintaxis Mysql</string>
+    <string name="act5">Sintaxis Mysql</string>
+
+    <string name="bottonPhyton">Sintaxis Phyton</string>
+    <string name="act6">Sintaxis Phyton</string>
+
+    <string name="bottonJavaSript">Sintaxis Java Script</string>
+    <string name="act7">Sintaxis JavaScript</string>
+
+    <string name="Sintaxis">Sintaxis</string>
+
+    <string-array name="country_arrays">
+        <item>Choose Country</item>
+        <item>Bangladesh</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+</resources>

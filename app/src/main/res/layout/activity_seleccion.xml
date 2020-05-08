@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seleccion">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="@string/Sintaxis"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Sintaxis " />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:contentDescription="@string/IMAGENBOTON"
+            android:onClick="php"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@mipmap/php" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/IMAGENBOTON"
+            android:onClick="bash"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@mipmap/terminal" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/IMAGENBOTON"
+            android:onClick="java"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+            app:srcCompat="@mipmap/java" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:contentDescription="@string/IMAGENBOTON"
+            android:onClick="mysql"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            app:srcCompat="@mipmap/mysql" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="28dp"
+            android:contentDescription="@string/IMAGENBOTON"
+            android:onClick="phyton"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton"
+            app:srcCompat="@mipmap/phyton" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="118dp"
+            android:layout_height="119dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:contentDescription="@string/IMAGENBOTON"
+            android:onClick="javaS"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+            app:srcCompat="@mipmap/js" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="49dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:contentDescription="@string/IMAGENBOTON"
+        android:onClick="cuenta"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/account" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
